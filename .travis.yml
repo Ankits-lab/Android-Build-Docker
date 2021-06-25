@@ -4,7 +4,7 @@ dist: bionic
 
 jobs:
   include:
-    - stage: Build Dependency Images
+    - stage: Build Dependency Images trail
       name: "AOSP Image"
       env:
       - DOCKERFILE=Dockerfile.aosp
